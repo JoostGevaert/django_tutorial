@@ -1,0 +1,9 @@
+.vscode
+__pycache__
+.pytest_cache
+.idea
+Projects/json
+.hypothesis
+*.sqlite*
+static
+*.env
