@@ -1,11 +1,11 @@
 # Django Tutorial
 
-* When configuring the Python interpreter in PyCharm, why does the pipenv configuration not seem to work?
-
 * SQLite command line client `sqlite3` + `.schema` doesn't print any tables, but I thought that by running
  `python manage.py migrate` some default tables would be created?
+ 
+* What is ASGI?
 
-* PyCharm terminal not showing previous commands when pressing arrow-up key
+* What is WSGI?
 
 * GitLab DevOps Pipeline is broken emails?
 
@@ -13,6 +13,6 @@
   * PyPi Pipenv description: Automatically install required Pythons, if `pyenv` is available. Does this mean that 
   I should install pyenv in my Anaconda `base` environment and that all pipenv Python version issues are solved?
 
-* What is ASGI?
+* When configuring the Python interpreter in PyCharm, why does the pipenv configuration not seem to work?
 
-* What is WSGI?
+* PyCharm terminal not showing previous commands when pressing arrow-up key
