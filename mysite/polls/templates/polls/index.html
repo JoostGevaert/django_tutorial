@@ -8,10 +8,6 @@
 {% if latest_question_list %}
     <ul>    <!-- This starts a bullet point list -->
     {% for question in latest_question_list %}
-<!--        Hardcoded url: not handy-->
-<!--        <li><a href="/polls/{{ question.id }}/">{{ question.question_text }}</a></li> -->
-<!--        Non-hardcoded url, without namespacing the url name-->
-<!--        <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>-->
 <!--        Non-hardcoded url with namespaced url-->
         <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
     {% endfor %}
